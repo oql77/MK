@@ -1,0 +1,536 @@
+
+/*a{
+	text-decoration: none;
+}
+a:hover{
+	color: #3e3e3e;
+	text-decoration: none;
+}
+*/
+span{
+	color: #000000;
+}
+span:hover{
+	color: #3E3E3E;
+}
+.container{
+	background: white;
+	width: 100%;
+}
+.setwidth{
+	max-width: 1440px;
+	margin-top: 20px;
+}
+.article {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.article-breadcrumb-new {
+    max-width: 1440px;
+    padding: 0;
+    letter-spacing: 1px;
+}
+.article-breadcrumb-new .breadcrumb {
+    border-bottom: 0;
+    padding: 10px 0px 10px;
+    font-family: "GothamBook",'Hiragino Sans GB W3';
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.list-inline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.article-breadcrumb-new .breadcrumb ul li {
+    color: #2e2e2e;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.list-inline li {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    font-size: 14px;
+}
+.article-breadcrumb-new .breadcrumb ul li a {
+    color: #000;
+    font-size: 12px;
+}
+.article-breadcrumb-new .breadcrumb ul li a:hover{
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+.article-breadcrumb-new .breadcrumb .divider {
+    padding: 0 9px;
+    font-size: 12px;
+}
+
+.list-conent-section {
+    max-width: 1440px;
+    padding: 0px 0px 20px 0px;
+    letter-spacing: 1px;
+    position: relative;
+}
+.list-left-section {
+    position: relative;
+    width: 250px;
+    height:1500px;
+    margin-right: -250px;
+    float: left;
+/*    background: lightblue;*/
+}
+.list-right-section {
+    float: left;
+    width: 100%;
+    /*position: absolute;*/
+}
+.topics-classify-box {
+    font-size: 12px;
+    font-family: "GothamBook",'Hiragino Sans GB W3';
+}
+.classify-box h3 {
+    padding: 17px 5px 8px;
+    color: #000;
+    margin: 0;
+}
+.topics-classify-box h3 {
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.classify-box ul {
+    border-bottom: 0 solid #ccc;
+    padding: 8px 0 30px;
+}
+.topics-classify-box ul {
+    padding: 11px 0 19px;
+}
+.topics-classify-box ul li {
+    padding: 8px 5px 7px;
+    line-height: 14px;
+}
+.classify-box ul > li > a {
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+}
+
+
+.topics-box ul > li > a {
+    color: #000;
+    font-weight: normal;
+    padding: 2px 0;
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+}
+/*.topics-box ul > li > a:hover{
+    color: #000;
+    font-weight: normal;
+    padding: 2px 0;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+}*/
+.selected-filters h3 {
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+}
+.filter-container {
+    border-bottom: 1px solid #d7d7d7;
+}
+.filter-list.filter-list-size {
+    margin-top: 22px;
+}
+.filter-list {
+    border-top: 1px solid #d7d7d7;
+}
+.filter-list h4 {
+    font-family: "GothamBook",'HiraginoSansGB-W6';
+    font-size: 12px;
+    color: #000;
+    letter-spacing: 1.2px;
+    line-height: 12px;
+    padding: 19px 0 17px;
+}
+.filter-list h4 .icon {
+    width: 12px;
+    height: 12px;
+float: right;			
+    margin-right: 2px;
+}
+.is-open .icon-toggle {
+    background-position: -71px -939px;
+}
+.is-close .icon-toggle {
+    background-position: -106px -939px;
+}
+.icon-checkbox22{
+	background-position: -75px -152px;
+	width: 22px;
+    height: 22px;
+    float: left;
+    margin-right: 10px;
+}
+.filter-list.filter-list-size .filter-value {
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 8px;
+}
+.filter-list.filter-list-size .filter-value a {
+    display: block;
+    line-height: 42px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 0 9px;
+    min-width: 35px;
+    background: #fefefe;
+}
+.filter-list.filter-list-size .filter-value a:hover {
+    display: block;
+    line-height: 42px;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 0 9px;
+    min-width: 35px;
+    background: #fefefe;
+    text-decoration: none;
+}
+.filter-list .filter-value a span{
+	color: #000000;
+}
+/*color*/
+.filter-list.filter-list-color .filter-pane .color-text {
+    height: 14px;
+    margin-bottom: 10px;
+}
+.filter-list.filter-list-color .filter-value {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.filter-list.filter-list-color .filter-value a {
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 42px;
+    padding: 6px;
+}
+.filter-list.filter-list-color .filter-value a span {
+    display: none;
+}
+.filter-list.filter-list-color .filter-value a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.filter-list.filter-list-color .filter-value a:hover{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+
+}
+/*.filter-list.filter-list-color .filter-value a::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+
+}*/
+.float-clearfix::after {
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.filter-list.filter-list-price .filter-value, .filter-list.filter-list-category .filter-value {
+    line-height: 14px;
+    position: relative;
+    padding: 9px 0;
+    padding-left: 0px;
+}
+
+
+/*right*/
+.list-right-container {
+    position: relative;
+    margin-left: 350px;
+}
+.list-right-sort {
+    padding-top: 17px;
+}
+.list-right-sort h4 {
+    font-family: "GothamBook",'Hiragino Sans GB W3';
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+.list-right-sort .list-sort .shu {
+    float: left;
+    line-height: 35px;
+    font-weight: normal;
+    color: #d7d7d7;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.list-right-sort .list-sort .layout-box {
+    line-height: 35px;
+}
+.float-left {
+    float: left !important;
+}
+.list-right-sort .list-sort .layout-box a {
+    padding-left: 5px;
+    color: #707070;
+    font-weight: bold;
+}
+.list-right-sort .list-sort .layout-box .is-active {
+    color: #000;
+}
+.list-right-sort .list-sort .sort-content {
+    width: 246px;
+    height: 35px;
+    font-size: 12px;
+}
+.list-right-sort .list-sort .sort-content label {
+    float: left;
+    line-height: 35px;
+}
+.list-right-sort .list-sort .sort-content .dropdown {
+    float: left;
+    background: #fff;
+    width: 190px;
+}
+.dropdown {
+    position: relative;
+}
+.list-right-sort .list-sort .sort-content .dropdown .btn {
+    height: 35px;
+    line-height: 34px;
+    border: 0;
+    background: #fff;
+    padding: 0 35px 0 10px;
+    color: #000;
+    text-align: left;
+    cursor: pointer;
+    font-size: 12px;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+.list-right-sort .list-sort .sort-content .dropdown .btn .icon {
+    border: 0 none;
+    width: 14px;
+    height: 13px;
+    padding: 0;
+    right: auto;
+    margin: -6px 0 0;
+    position: initial;
+}
+.icon-caret {
+    background-position: -183px -937px;
+}
+.list-right-sort .list-sort .sort-content .is-open .sub-menu {
+	display: block;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-top: 0;
+    padding-bottom: 10px;
+}
+.tinyscrollbar.sub-menu .viewport {
+    height: auto;
+    max-height: 150px;
+}
+.list-right-sort .list-sort .sort-content .dropdown .sub-menu li a {
+    color: #000;
+    display: inline-block;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.list-right-sort .list-sort .product-count {
+    line-height: 35px;
+}
+.float-right {
+    float: right !important;
+}
+
+/*content*/
+.list-content {
+    margin: 12px 0;
+}
+.list-content .product-list {
+    position: relative;
+}
+.product-list-box .product-list-main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.product-list-main {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 0;
+	margin: 0 -15px;
+	letter-spacing: 0;
+}
+.row {
+    font-size: 0;
+    position: relative;
+}
+
+.product-list-main > div {
+    display: block;
+    float: left;
+}
+.product-list-main .list-rowr {
+    margin: 0 0 10px;
+}
+.product-list-box .product-list-main .list-rowr {
+    width: 25%;
+}
+.product-list-main .list-rowr .thumbnail {
+    padding: 0 15px 28px;
+    border-radius: 0;
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    letter-spacing: 1px;
+    border: 0;
+}
+.pro-img-box {
+    position: relative;
+}
+.pro-img-box .product-img {
+    position: relative;
+    display: block;
+}
+.thumbnail img {
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pro-img-box .product-img img {
+    border-radius: 0;
+}
+.pro-img-box .fast-btn {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    font-family: "GothamBook",'Hiragino Sans GB W6';
+    font-size: 12px;
+    color: #000;
+    letter-spacing: 1.2px;
+    line-height: 28px;
+    background: #fff;
+    cursor: pointer;
+    z-index: 3;
+}
+.pro-img-box .fast-btn:hover{
+	background: #000;
+}
+.pro-img-box .fast-btn span {
+    display: block;
+    text-align: center;
+}
+.pro-img-box .fast-btn span:hover{
+	color: #fff;
+}
+.pro-img-box .hover_icons {
+    display: none;
+    position: absolute;
+    right: 14px;
+    top: 18px;
+    z-index: 3;
+}
+.hover_icons a {
+    display: block;
+    height: 18px;
+    width: 19px;
+    margin-bottom: 4px;
+}
+.hover_icons .collection-icon {
+    width: 19px;
+    height: 17px;
+    background-position: -272px -75px;
+}
+.hover_icons .collection-icon:hover {
+    width: 19px;
+    height: 17px;
+    background-position: -272px 0px;
+}
+
+
+.product-name {
+    line-height: 16px;
+    margin: 24px 0 0;
+    overflow: hidden;
+    color: #000;
+    padding: 0;
+}
+.product-name a:hover{
+	text-decoration: none;
+}
+.product-name span {
+    padding-bottom: 3px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "GothamBold","Hiragino Sans GB","微软雅黑","Microsoft YaHei",sans-serif;
+    font-weight: bold;
+}
+.product-name h2 {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 13px;
+    padding-top: 2px;
+}
+.thumbnail h2 {
+    padding: 0;
+    margin: 0;
+}
+.product-price {
+    line-height: 13px;
+    margin: 15px 0;
+    min-height: 46px;
+    font-family: 'GothamRegular',"Hiragino Sans GB","微软雅黑","Microsoft YaHei",sans-serif;
+}
+.list-rowr .product-price p {
+    margin: 0 !important;
+}
+.more-color li {
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+    padding: 3px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.more-color li a img {
+    width: 17px;
+    height: 17px;
+    display: block;
+    border-radius: 50%;
+}
+
