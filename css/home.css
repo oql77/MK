@@ -806,7 +806,8 @@ nav .navbar-menu{
 }
 .nav-menu-box{
 	background-color: white;
-	min-height: 586px;
+	min-height: 265px;
+	overflow: hidden;
 }
 .nav-menu-container{
 	width: 100%;
